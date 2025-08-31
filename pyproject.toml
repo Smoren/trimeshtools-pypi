@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=46.4.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.coverage.run]
+source = ["trimeshtools"]
+
+[tool.coverage.report]
+exclude_also = [
+    "raise NotImplementedError",
+    "@(abc\\.)?abstractmethod",
+    "# pragma: no cover",
+]
+exclude_lines = [
+    "raise NotImplementedError",
+    "@(abc\\.)?abstractmethod",
+    "# pragma: no cover",
+]

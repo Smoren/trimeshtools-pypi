@@ -6,7 +6,7 @@
 [![Actions Status](https://github.com/Smoren/trimeshtools-pypi/workflows/Test/badge.svg)](https://github.com/Smoren/trimeshtools-pypi/actions)
 [![License](https://img.shields.io/github/license/Smoren/trimeshtools-pypi)](https://github.com/Smoren/trimeshtools-pypi/blob/master/LICENSE)
 
-`trimeshtools-pypi` is a minimalistic Python library designed to extend the capabilities of the popular `trimesh` library. 
+**TrimeshTools** is a minimalistic Python library designed to extend the capabilities of the popular `trimesh` library. 
 It provides a limited set of tools for basic 3D mesh manipulation, including operations for combining, moving, rotating, 
 and visualizing 3D models. This library aims to simplify common mesh processing tasks, making it easier for developers 
 and researchers to work with 3D data in Python.

@@ -40,7 +40,7 @@ setuptools.setup(
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.11',
-    install_requires=["trimesh", "numpy", "scipy", "shapely", "pyglet"],
+    install_requires=["trimesh", "numpy", "scipy", "shapely", "pyglet<2"],
     extras_require={
         'dev': ['check-manifest', 'coverage'],
         'test': ['coverage'],

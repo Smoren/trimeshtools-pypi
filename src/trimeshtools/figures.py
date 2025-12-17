@@ -26,7 +26,7 @@ def create_archimedean_spiral_mesh(
         A mesh object representing the Archimedean spiral trajectory.
     """
     # Define the shape polygon
-    shape = shapely.geometry.Polygon(shape_polygon_path*2.2)
+    shape = shapely.geometry.Polygon(shape_polygon_path)
 
     # Generate theta values
     theta = np.linspace(0, num_turns * 2 * np.pi, num_points)

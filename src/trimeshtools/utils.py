@@ -13,10 +13,10 @@ def fix_all(mesh: trimesh.Trimesh, max_iter: int = 10) -> None:
         None
     """
     for i in range(max_iter):
+        if mesh.is_volume and mesh.is_watertight:
+            return
+
         mesh.merge_vertices()
         mesh.update_faces(mesh.nondegenerate_faces())
         mesh.update_faces(mesh.unique_faces())
         mesh.fix_normals()
-
-        if mesh.is_volume and mesh.is_watertight:
-            return
